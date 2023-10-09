@@ -1,7 +1,7 @@
 <div class="container mt-2">
-  <h1>Search History:</h1>
+  <h1 class="mb-3">Search History:</h1>
   <div class="text-center"
   *ngFor="let search of searchHistory">
-    <p>{{ search }}</p>
+    <p [appRandomBgColor] style="border: 1px solid black;">{{ search }}</p>
   </div>
 </div>
